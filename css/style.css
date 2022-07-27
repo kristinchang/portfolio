@@ -1,14 +1,20 @@
 body{
 	margin: 0px;
 	transition: all 1s;
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 1.5em
 }
 @font-face {
-    font-family: 'Nunito-Bold';
-    src:url(../fonts/Nunito-Bold.ttf) format('truetype');
+    font-family: 'source-serif-pro', serif;
+    font-style: normal;
+    font-weight: 200;
+    src:url(https://use.typekit.net/cba1top.css);
 }
 @font-face {
-    font-family: 'OpenSans-Regular';
-    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src:url(https://use.typekit.net/cba1top.css);
 }
 .mainHeader{
 	  position: fixed; 
@@ -19,11 +25,8 @@ body{
     padding-left: 0px;
     padding-right: 0px;
 }
-.home{
-		
-}
 .header-section {
-  background: #deecdf;
+  background: #F6EEE3;
   background-image: url('../img/1.jpg');
   text-align: center;
   min-height: 500px;
@@ -33,10 +36,9 @@ body{
   margin-top: 7em;
 }
 .header-section h2 {
-  font-family: 'Nunito-Bold';
-  font-size: 4em;
-  text-transform: capitalize;
-  color: #393b3a;
+  font-family: 'proxima-nova';
+  font-size: 1em;
+  color: #414224;
   padding: 0.5em 0 0 0;
 }
 .header-section span {
@@ -44,7 +46,7 @@ body{
   font-size: 1em;
 }
 .header-section p {
-  font-family: 'Nunito-Bold';
+  font-family: 'source-serif-pro';
   font-size: 1.3em;
   color: #393b3a;
 }
@@ -58,16 +60,15 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .about{
 	background-size: cover;
-	background: #deecdf;
-/* 	background-image: url('../img/1.jpg');
- */	padding-bottom: 5vw;
+	background: #ffffff;
+  padding-bottom: 5vw;
 	text-align: center;
 }
 .about h3{
-	font-family: 'Nunito-Bold';
-  	font-size: 2.5em;
+	font-family: 'source-serif-pro';
+  	font-size: 3.5em;
   	text-transform: capitalize;
-  	color: #393b3a;
+  	color: #414224;
   	padding-bottom: 2%;
 }
 .yourPic{
@@ -101,30 +102,17 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 @media only screen and (max-width:1281px) { /* hi-res laptops and desktops */ 
 }
-
-.skills{
-}
-.experience{
-	background-color: rgba(255,244,1,0.4);	height: 100vh;
-	text-align: center;	
-}
-.experience h3{
-	font-family: 'Nunito-Bold';
-  	font-size: 2.5em;
-  	text-transform: capitalize;
-  	color: #393b3a;
-}
 .projects{
-	background-color: rgba(25,244,1,0.4);
+	background-color: #efebe4;
 	padding: 5%;
 	text-align: center;	
 
 }
 .projects h3{
-	font-family: 'Nunito-Bold';
-  	font-size: 2.5em;
+	font-family: 'source-serif-pro';
+  	font-size: 3em;
   	text-transform: capitalize;
-  	color: #393b3a;
+  	color: #414224;
   	margin-bottom: 2%;
 }
 .hero{
@@ -151,8 +139,7 @@ h1{
   position: relative;
   display: inline-block;
   vertical-align: top;
-  border: 5px solid #fff;
-  box-shadow: 0 0 5px #ddd;
+  border: 3px solid #4b551d;
   margin: 1em;
 }
 
@@ -173,8 +160,9 @@ h1{
   position: relative;
   top: 0px;
   opacity: 0;
-  color: #2c3e50;
+  color: #4b551d;
   text-transform: uppercase;
+  font-size: large;
 }
 
 .figcaption div:after{
@@ -186,7 +174,7 @@ h1{
   margin: auto;
   width: 0%;
   height: 2px;
-  background: #2c3e50;
+  background: #76804a;
 }
 
 .figure img{
@@ -197,7 +185,7 @@ h1{
 }
 
 .figure:hover .figcaption{
- background: rgba(255,255,255,0.3);
+ background: rgba(255, 255, 255, 0.85);
 }
 .figure:hover .figcaption div{
   opacity: 1;
@@ -208,7 +196,7 @@ h1{
 }
 
 .figcaption:hover div:after{
-  width: 50%;
+  width: 0%; /* this controls the strikethrough text*/
 }
 
 .figure:hover img{
@@ -219,7 +207,7 @@ h1{
 	padding-top: 10vh;
 }
 .carousel-content {
-    color:black;
+    color:whitesmoke;
     display:flex;
     align-items:center;
 }
@@ -236,34 +224,6 @@ h1{
   
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
-}
-
-/*font-face*/
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
 }
 
 #myBtn {
@@ -291,7 +251,7 @@ h1{
   padding: 4em 0;
 }
 .study-grid h3 {
-  font-family: 'Nunito-Bold';
+  font-family: 'source-serif-pro';
   font-size: 2.5em;
   text-transform: capitalize;
   color: #393b3a;
@@ -349,7 +309,7 @@ h1{
 .service-grid h4 {
   font-size: 1.5em;
   margin: 0.9em 0;
-    font-family: 'Nunito-Bold';
+    font-family: 'source-serif-pro';
 }
 .service-grid p {
   font-size: 1em;
@@ -378,75 +338,20 @@ font-size: 2em;
   border: 2px solid;
   padding: 1em;
 }
-.contactMe{
-
-}
-.contact-section {
-  padding: 4em 0;
-  background: #deecdf;
- 
- }
-.contact-section h3 {
-    font-family: 'Nunito-Bold';
-  font-size: 2.5em;
-  text-transform: capitalize;
-  color: #393b3a;
-  text-align: center;
-  margin-bottom: 2em;
-
-}
-.contact-details form input[type="text"],.contact-details form textarea {
-	width: 100%;
-	padding: 1.5em 1em;
-	border: 1px solid #7ca17f;
-	font-size: 1.1em;
-	margin-bottom: 1.2em;
-	color: #Aac8ac;
-	outline: none;
-	background:transparent;
-	font-weight: 600;
-}
-.contact-details form textarea {
-	height: 244px;
-	resize: none;
-	width: 100%;
-}
-.contact-right{
-	text-align:right;
-}
-.contact-details input[type="submit"] {
-	background: #393b3a;
-	padding: 1em 2em;
-	border: none;
-	font-size: 1em;
-	margin: 0.5em 0 0 0;
-	color: #fff;
-	outline: none;
-	font-weight: 600;
-	border-radius:5px;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-.contact-details input[type="submit"]:hover {
-  color: #fff;
-  background: rgb(0, 207, 189);
-}
 .mainFooter{
 	background-color: #000000;
 	color: #ffffff;
 }
 .footer-top{
 	text-align: center;
-	font-family: 'Nunito-Bold';
+	font-family: 'source-serif-pro';
   	font-size: 1em;
   	text-transform: capitalize;
   	padding-top: 10px;
 }
 .panel-default>.panel-heading {
-    background-color: #db0f31;
+    background-color: #76804a;
+    color: whitesmoke; /*controls the text color of collapse headings on about page */
 }
 .navbar-inverse .navbar-nav>li:hover {
     background-color: #9d9d9d;
