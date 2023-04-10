@@ -43,7 +43,7 @@ body{
 .header-section p {
   font-family: 'source-serif-pro';
   font-size: 1.3em;
-  color: #393b3a;
+  color: #ffffff;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 2em;
@@ -139,7 +139,7 @@ h1{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
 }
 
@@ -236,7 +236,7 @@ h1{
 	padding-top: 10vh;
 }
 .carousel-content {
-    color:whitesmoke;
+    color: #ffffff;
     display:flex;
     align-items:center;
 }
@@ -263,7 +263,7 @@ h1{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #774040;
+    background-color: #ffffff;
     color: white; 
     cursor: pointer; 
     padding: 15px; 
@@ -273,7 +273,7 @@ h1{
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #ffffff; /* Add a dark-grey background on hover */
 }
 
 .study-section {
@@ -297,7 +297,7 @@ h1{
   }
 .study-grid label {
   font-size: 0.8em;
-  color: #9CA69D;
+  color: #ffffff;
   margin: 0 0 0 7px;
 }
 .progress {
@@ -305,19 +305,19 @@ h1{
 	 box-shadow: none;
 }
 .progress-bar-success {
-  background-color: #DEECDF;
+  background-color: #ffffff;
    box-shadow: none;
 }
 .progress-bar-info {
-  background-color: #ACB5B8;
+  background-color: #ffffff;
     box-shadow: none;
 }
 .progress-bar-warning {
-  background-color: #78B3AE;
+  background-color: #ffffff;
    box-shadow: none;
 }
 .progress-bar-danger {
-  background-color: #8C9D82;
+  background-color: #ffffff;
   box-shadow: none;
   }
 .study-grid h4 {
@@ -343,12 +343,12 @@ h1{
 .service-grid p {
   font-size: 1em;
   font-weight: 400;
-  color: #9CA69D;
+  color: #ffffff;
     line-height: 1.8em;
 }
 span.glyphicon.glyphicon-pencil {
   font-size: 2em;
-  color: #C6D9C7;
+  color: #ffffff;
   border-radius: 50px;
   border: 2px solid;
   padding: 1em;
@@ -390,4 +390,8 @@ font-size: 2em;
 .navbar-inverse {
     background-color: #3a76d7;
     border: none;
+}
+.navbar-custom {
+  color: #ffffff;
+  background-color: #3a76d7;
 }
