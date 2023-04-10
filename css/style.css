@@ -35,12 +35,7 @@ body{
 .header-section img {
   margin-top: 7em;
 }
-.header-section h2 {
-  font-family: 'proxima-nova';
-  font-size: 1em;
-  color: #414224;
-  padding: 0.5em 0 0 0;
-}
+
 .header-section span {
   color: #00cfbd;
   font-size: 1em;
@@ -68,7 +63,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 	font-family: 'source-serif-pro';
   	font-size: 3.5em;
   	text-transform: capitalize;
-  	color: #414224;
+  	color: #3a76d7;
   	padding-bottom: 2%;
 }
 .yourPic{
@@ -103,7 +98,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 @media only screen and (max-width:1281px) { /* hi-res laptops and desktops */ 
 }
 .projects{
-	background-color: #efebe4;
+	background-color: #ffffff;
 	padding: 5%;
 	text-align: center;	
 
@@ -112,8 +107,22 @@ span.glyphicon.glyphicon-triangle-bottom {
 	font-family: 'source-serif-pro';
   	font-size: 3em;
   	text-transform: capitalize;
-  	color: #414224;
+  	color: #3a76d7;
   	margin-bottom: 2%;
+}
+.projects h2 {
+  font-family: 'proxima-nova';
+  font-size: 2.5em;
+  color: #e27b78;
+  padding: 0.25em 0 0 0;
+}
+.projects h4 {
+  font-family: 'proxima-nova';
+  font-size: 1em;
+  color: #363433;
+  padding: 0 0 0 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .hero{
   width: 100%;
@@ -134,12 +143,13 @@ h1{
   font-weight: 300;
 }
 
-.figure{
+/*.figure{
   overflow: hidden;
   position: relative;
-  display: inline-block;
+  display: block;
   vertical-align: top;
-  border: 3px solid #4b551d;
+  border: 3px solid #e27b78;
+  border-width: 0.15em;
   margin: 1em;
 }
 
@@ -196,13 +206,32 @@ h1{
 }
 
 .figcaption:hover div:after{
-  width: 0%; /* this controls the strikethrough text*/
+  width: 0%; /* this controls the strikethrough text
 }
 
 .figure:hover img{
   -webkit-transform: scale3d(1.2, 1.2, 1);
           transform: scale3d(1.2, 1.2, 1);
+}*/
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  margin: 2;
 }
+
+.figure img{
+  max-width: 100%;
+}
+
+.figcaption {
+  align-self: flex-start;
+  text-align: center;
+  top: 5px;
+  font-size: large;
+  color: #f15850;
+}
+
 #about{
 	padding-top: 10vh;
 }
@@ -254,7 +283,7 @@ h1{
   font-family: 'source-serif-pro';
   font-size: 2.5em;
   text-transform: capitalize;
-  color: #393b3a;
+  color: #e27b78;
   
 }
 .study-grid span {
@@ -263,7 +292,7 @@ h1{
 }
 .study-grid p {
   font-size: 1.2em;
-  color: #393b3a;
+  color: #e27b78;
   padding: 1.1em 0 0 0;
   }
 .study-grid label {
@@ -339,7 +368,7 @@ font-size: 2em;
   padding: 1em;
 }
 .mainFooter{
-	background-color: #000000;
+	background-color: #3a76d7;
 	color: #ffffff;
 }
 .footer-top{
@@ -350,15 +379,15 @@ font-size: 2em;
   	padding-top: 10px;
 }
 .panel-default>.panel-heading {
-    background-color: #76804a;
-    color: whitesmoke; /*controls the text color of collapse headings on about page */
+    background-color: #e27b78;
+    color: #ffffff; /*controls the text color of collapse headings on about page */
 }
 .navbar-inverse .navbar-nav>li:hover {
-    background-color: #9d9d9d;
+    background-color: #7b9ed8;
     color: white;
     border-radius: 4px;
 }
 .navbar-inverse {
-    background-color: #000000;
+    background-color: #3a76d7;
     border: none;
 }
